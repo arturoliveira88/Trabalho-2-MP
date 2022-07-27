@@ -18,7 +18,7 @@ def junta(s1, s2):    #junta e ordena o conteudo de dois arquivos
     return lista_A1
 
 def gera_saida(lista):
-    with open('T1saida.txt','w') as arquivo:
+    with open('saida.txt','w') as arquivo:
         for i in lista:
             arquivo.write(str(i)+'\n')
             
