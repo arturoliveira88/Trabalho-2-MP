@@ -7,11 +7,11 @@ def junta(s1, s2):    #junta e ordena o conteudo de dois arquivos
     
     for i in A1:
         i = i.rstrip()
-        lista_A1.append(i)
+        lista_A1.append(int(i))
         
     for i in A2:
         i = i.rstrip()
-        lista_A2.append(i)
+        lista_A2.append(int(i))
         
     lista_A1.extend(lista_A2)
     lista_A1.sort()
@@ -22,6 +22,10 @@ def gera_saida(lista):
         for i in lista:
             arquivo.write(str(i)+'\n')
             
-    return lista
+    lista_str = []
+    
+    for i in lista:
+        lista_str.append(str(i))
+            
+    return lista_str
 
-#print(junta('T1A1.txt','T1A2.txt'))
