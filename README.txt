@@ -1,4 +1,4 @@
-TRABALHO 2 MP
+TRABALHO 2 MP.	Artur Oliveira Silva Alves(202014421), 2022.
 
 Foram rodados 4 testes, cada um com um propósito. Os testes seguem a nomenclatura "T[numero do teste]A[numero do arquivo].txt",
 por exemplo, T1A1.txt se refere ao Arquivo 1 do teste 1. Cada teste possui sua respectiva saída representada por 
@@ -8,6 +8,10 @@ Deve-se testar o programa digitando "pytest" no prompt de comando. Sempre que is
 referente ao ultimo teste realizado.
  
 Os testes estão armazenados na pasta "testes".
+
+Documentação em: \Documentação\_build\html\index.html
+
+Teste de cobertura em: \Coverage\index.html
 
 O primeiro teste foi feito com o objetivo de testar a junção e ordenação de dois arquivos sem repetição de números, sendo:
 
